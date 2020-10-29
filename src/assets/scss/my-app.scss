@@ -1,0 +1,36 @@
+@import 'my-app/variables';
+@import 'my-app/mixins';
+// Plugins CSS
+@import "my-app/plugins/plugin-animate-bootstrap-notify";
+@import "my-app/plugins/plugin-perfect-scrollbar";
+// Core CSS
+@import "my-app/buttons";
+@import "my-app/inputs";
+@import "my-app/typography";
+@import "my-app/misc";
+@import "my-app/checkboxes-radio";
+// components
+@import "my-app/navbar";
+@import "my-app/page-header";
+@import "my-app/dropdown";
+@import "my-app/alerts";
+@import "my-app/images";
+@import "my-app/nucleo-outline";
+@import "my-app/tables";
+@import "my-app/sidebar-and-main-panel";
+@import "my-app/footers";
+@import "my-app/fixed-plugin";
+// cards
+@import "my-app/cards";
+@import "my-app/cards/card-plain";
+@import "my-app/cards/card-chart";
+@import "my-app/cards/card-user";
+@import "my-app/cards/card-map";
+@import "my-app/cards/card-stats";
+// angular differences
+@import "my-app/angular/plugin-ngx-toastr";
+@import "my-app/angular/sidebar-and-main-panel";
+@import "my-app/angular/dropdown";
+@import "my-app/angular/inputs";
+@import "my-app/angular/fixed-plugin";
+@import "my-app/responsive";
